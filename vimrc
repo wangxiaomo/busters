@@ -29,6 +29,7 @@ if has("autocmd")
 endif
 
 imap jj       <ESC>
+imap <s-tab>  <c-p>
 imap <c-w>n   :tabnew<CR>
 map  <c-w>n   :tabnew<CR>
 map  <leader>1 :tabn 1<CR>
@@ -81,6 +82,10 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'Shougo/neocomplcache'
 Bundle 'majutsushi/tagbar'
+Bundle 'groenewege/vim-less'
 
 filetype on
 " End
+
+" Some Plugins on vim.org
+" markdown script_id = 2882
