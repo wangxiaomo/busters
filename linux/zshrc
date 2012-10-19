@@ -35,15 +35,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 alias vi='vim'
-alias grep='grep -i'
 alias ls='ls -F --color'
-alias ll='ls -lh'
 
 export VISUAL='vim'
 export EDITOR='vim'
-export LANG='zh_CN.UTF-8'
-export LANGUAGE='zh_CN.UTF-8'
-export LC_ALL='zh_CN.UTF-8'
 
 # Prompt
 PROMPT="${current_dir} ${git_branch}%B%%%b "
