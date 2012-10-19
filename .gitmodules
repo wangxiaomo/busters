@@ -1,3 +1,33 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/markdown"]
+	path = vim/bundle/markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "vim/bundle/vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "vim/bundle/vim-less"]
+	path = vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
+[submodule "vim/bundle/MatchTag"]
+	path = vim/bundle/MatchTag
+	url = https://github.com/gregsexton/MatchTag
+[submodule "vim/bundle/numbers"]
+	path = vim/bundle/numbers
+	url = https://github.com/myusuf3/numbers.vim
