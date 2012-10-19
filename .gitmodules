@@ -46,3 +46,6 @@
 [submodule "vim/bundle/neocomplcache"]
 	path = vim/bundle/neocomplcache
 	url = https://github.com/Shougo/neocomplcache
+[submodule "vim/bundle/vim-jade"]
+	path = vim/bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade
