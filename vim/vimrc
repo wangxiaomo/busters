@@ -63,9 +63,11 @@ let g:ctrlp_working_path_mode=0
 filetype plugin on
 
 autocmd FileType python,perl set sw=4 ts=4 expandtab
-autocmd FileType javascript,html,markdown set sw=2 ts=2 expandtab
+autocmd FileType javascript,html,markdown,css set sw=2 ts=2 expandtab
+autocmd FileType jade set sw=2 ts=2 expandtab
 
 filetype on
 
-set background=dark
-colorscheme molokai
+"set background=dark
+"colorscheme molokai
+colorscheme koehler
