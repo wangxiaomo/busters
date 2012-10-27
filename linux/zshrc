@@ -45,7 +45,7 @@ alias node='nodejs'
 
 export VISUAL='vim'
 export EDITOR='vim'
-export PYTHONPATH="/home/wj_intern/lib64/python2.7/site-packages/:$PYTHONPATH"
+export PYTHONPATH="~/lib64/python2.7/site-packages/:$PYTHONPATH"
 
 # Prompt
 PROMPT="${current_dir} ${git_branch}%B%%%b "
