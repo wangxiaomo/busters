@@ -42,6 +42,7 @@ alias ar='sudo aptitude remove'
 alias ap='sudo aptitude purge'
 alias tmux='TERM=screen-256color-bce tmux'
 alias node='nodejs'
+alias sublime='~/Sublime\ Text\ 2/sublime_text'
 
 export VISUAL='vim'
 export EDITOR='vim'
