@@ -38,8 +38,8 @@ map  <leader>1 :tabn 1<CR>
 map  <leader>2 :tabn 2<CR>
 map  <leader>3 :tabn 3<CR>
 map  <leader>4 :tabn 4<CR>
-map  <leader>e :NERDTreeToggle<CR>
-imap <leader>e <ESC>:NERDTreeToggle<CR>
+map  <leader>e :NERDTreeTabsToggle<CR>
+imap <leader>e <ESC>:NERDTreeTabsToggle<CR>
 map  <leader>t :TagbarToggle<CR>
 imap <leader>t <ESC>:TagbarToggle<CR>
 
