@@ -71,4 +71,5 @@ filetype on
 
 "set background=dark
 "colorscheme molokai
-colorscheme koehler
+"colorscheme koehler
+colorscheme molokai-transparent
