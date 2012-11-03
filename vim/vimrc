@@ -63,8 +63,8 @@ let g:jedi#popup_on_dot = 0
 
 filetype plugin on
 
-autocmd FileType python,perl set sw=4 ts=4 expandtab
-autocmd FileType javascript,html,markdown,css set sw=2 ts=2 expandtab
+autocmd FileType python,perl,markdown set sw=4 ts=4 expandtab
+autocmd FileType javascript,html,css set sw=2 ts=2 expandtab
 autocmd FileType jade,smarty set sw=2 ts=2 expandtab
 
 filetype on
