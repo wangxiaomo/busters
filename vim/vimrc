@@ -22,6 +22,7 @@ set ai
 set sw=4
 set ts=4
 set t_Co=256
+set laststatus=2
 set expandtab
 set fencs=utf-8,cp936
 set backspace=indent,eol,start
@@ -60,6 +61,7 @@ let g:syntastic_enable_balloons=1
 let g:ctrlp_use_caching=1
 let g:ctrlp_working_path_mode=0
 let g:jedi#popup_on_dot = 0
+let g:Powerline_symbols='fancy'
 
 filetype plugin on
 
