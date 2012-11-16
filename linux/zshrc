@@ -29,7 +29,7 @@ ZSH_THEME="bira"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git cpanm django github perl pip python redis-cli svn taskwarrior)
+plugins=(git cpanm django github perl pip python redis-cli svn)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -41,11 +41,6 @@ alias ai='sudo aptitude install'
 alias ar='sudo aptitude remove'
 alias ap='sudo aptitude purge'
 alias tmux='TERM=screen-256color-bce tmux'
-alias pip='pip2'
-alias python='python2'
-alias node='nodejs'
-alias ack='ack-grep'
-alias sublime='~/Sublime\ Text\ 2/sublime_text'
 alias todo='vi ~/todo.md'
 
 export VISUAL='vim'
