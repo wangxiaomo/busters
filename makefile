@@ -13,3 +13,7 @@ vim:
 	rm -rf ~/.vimrc ~/.vim
 	ln -s `pwd`/vim/vimrc ~/.vimrc
 	ln -s `pwd`/vim ~/.vim
+
+pythonz:
+	cd ~
+	curl -kL https://raw.github.com/saghul/pythonz/master/pythonz-install | bash
