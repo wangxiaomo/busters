@@ -104,6 +104,7 @@ let g:pymode_syntax_builtin_objs=g:pymode_syntax_all
 let g:pymode_syntax_builtin_funcs=g:pymode_syntax_all
 let g:pymode_syntax_highlight_exceptions=g:pymode_syntax_all
 let g:pymode_syntax_slow_sync=0
+let g:PreviewBrowsers='chrome,chromium-browser,firefox,safari'
 
 filetype plugin on
 
