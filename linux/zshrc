@@ -64,5 +64,5 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 git config --global alias.df "diff --color"
 
 # pythonz
-[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
-source /usr/local/bin/virtualenvwrapper.sh
+#[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+#source /usr/local/bin/virtualenvwrapper.sh

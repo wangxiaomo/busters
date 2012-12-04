@@ -5,6 +5,7 @@ main:zsh tmux vim
 
 zsh:
 	rm -f ~/.zshrc && ln -s `pwd`/linux/zshrc ~/.zshrc
+	rm -f ~/.oh-my-zsh && ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
 
 tmux:
 	rm -f ~/.tmux.conf && ln -s `pwd`/tmux.conf ~/.tmux.conf
