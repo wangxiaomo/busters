@@ -8,6 +8,9 @@ zsh:
 	rm -f ~/.oh-my-zsh && ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
 
 tmux:
+	rm -f ~/.tmux-powerlinerc
+	./tmux-powerline/generate_rc.sh
+	mv ~/.tmux-powerlinerc.default ~/.tmux-powerlinerc
 	rm -f ~/.tmux.conf && ln -s `pwd`/tmux.conf ~/.tmux.conf
 
 vim:
