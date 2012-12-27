@@ -1,7 +1,10 @@
 .PHONY: zsh tmux vim
 
-main:zsh tmux vim
+main:repo zsh tmux vim
 	@echo "wxm4ever@gmail.com https://github.com/wangxiaomo"
+
+repo:
+	git submodule init && git submodule update
 
 zsh:
 	rm -f ~/.zshrc && ln -s `pwd`/linux/zshrc ~/.zshrc
