@@ -40,7 +40,6 @@ alias as='aptitude search'
 alias ai='sudo aptitude install'
 alias ar='sudo aptitude remove'
 alias ap='sudo aptitude purge'
-alias tmux='TERM=screen-256color-bce tmux'
 alias todo='vi ~/todo.md'
 
 export VISUAL='vim'
