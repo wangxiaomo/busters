@@ -14,7 +14,7 @@ tmux:
 	rm -f ~/.tmux-powerlinerc
 	./tmux-powerline/generate_rc.sh
 	mv ~/.tmux-powerlinerc.default ~/.tmux-powerlinerc
-	ln -s `pwd`/tmux-powerline ~/.tmux-powerline
+	rm -f ~/.tmux-powerline && ln -s `pwd`/tmux-powerline ~/.tmux-powerline
 	rm -f ~/.tmux.conf && ln -s `pwd`/tmux.conf ~/.tmux.conf
 
 vim:
