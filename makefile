@@ -1,4 +1,4 @@
-.PHONY:repo zsh tmux vim
+.PHONY:repo zsh tmux vim virtualenv pythonz
 
 main:zsh tmux vim
 	@echo "wxm4ever@gmail.com https://github.com/wangxiaomo"
@@ -21,6 +21,10 @@ vim:
 	rm -rf ~/.vimrc ~/.vim
 	ln -s `pwd`/vim/vimrc ~/.vimrc
 	ln -s `pwd`/vim ~/.vim
+
+virtualenv:
+	# debian only
+	sudo aptitude install python-virtualenv virtualenvwrapper
 
 pythonz:
 	cd ~

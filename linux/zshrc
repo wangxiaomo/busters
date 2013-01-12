@@ -61,6 +61,8 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 git config --global alias.df "diff --color"
+git config --global alias.st "status -s"
+git config --global alias.reflog "reflog show master"
 
 # pythonz
 #[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
