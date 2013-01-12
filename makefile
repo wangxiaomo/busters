@@ -1,7 +1,14 @@
-.PHONY:repo zsh tmux vim virtualenv pythonz
-
 main:zsh tmux vim
 	@echo "wxm4ever@gmail.com https://github.com/wangxiaomo"
+	@echo "little busters!!!"
+
+
+.PHONY:base repo zsh tmux vim python pythonz virtualenv
+
+base:
+	sudo apt-get install aptitude
+	sudo aptitude update && aptitude upgrade
+	sudo aptitude install vim zsh tmux git gitg figlet openssh-sever
 
 repo:
 	git submodule init && git submodule update
@@ -22,10 +29,14 @@ vim:
 	ln -s `pwd`/vim/vimrc ~/.vimrc
 	ln -s `pwd`/vim ~/.vim
 
-virtualenv:
-	# debian only
-	sudo aptitude install python-virtualenv virtualenvwrapper
+python:
+	sudo aptitude install python-setuptools python-pip
 
 pythonz:
 	cd ~
 	curl -kL https://raw.github.com/saghul/pythonz/master/pythonz-install | bash
+
+virtualenv:
+	# debian only
+	sudo aptitude install python-virtualenv
+	sudo pip install virtualenvwrapper

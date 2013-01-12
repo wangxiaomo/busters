@@ -65,7 +65,7 @@ git config --global alias.st "status -s"
 git config --global alias.reflog "reflog show master"
 
 # pythonz
-#[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
-#source /usr/local/bin/virtualenvwrapper.sh
+[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+source /usr/local/bin/virtualenvwrapper.sh >>/dev/null 2>&1
 
 figlet wangxiaomo
