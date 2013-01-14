@@ -64,6 +64,7 @@ git config --global alias.df "diff --color"
 git config --global alias.st "status -s"
 git config --global alias.reflog "reflog show master"
 git config --global alias.merge "merge --no-ff"
+git config --global alias.co "checkout"
 
 # pythonz
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc

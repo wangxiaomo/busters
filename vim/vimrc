@@ -108,7 +108,7 @@ let g:PreviewBrowsers='chrome,chromium-browser,firefox,safari'
 
 filetype plugin on
 
-autocmd FileType python,perl,markdown set sw=4 ts=4 expandtab
+autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab
 autocmd FileType jade,smarty set sw=2 ts=2 expandtab
 
