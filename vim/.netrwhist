@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/xiaomo/github/mac-dot-file/vim/bundle/snipmate/plugin'
 let g:netrw_dirhist_2='/home/xiaomo/sandbox/RESTful/sample/backbone-boilerplates/option2/public'
 let g:netrw_dirhist_3='/home/xiaomo/github/SnipFlow/public/static'
 let g:netrw_dirhist_4='/home/wangxiaomo/git/supper-resolution/samples'
+let g:netrw_dirhist_5='/home/wangxiaomo/doubanfm'
+let g:netrw_dirhist_6='/home/wangxiaomo/.config/chromium/Default/Extensions/elgfababjopgjalkgbfndlempbfdiecf'

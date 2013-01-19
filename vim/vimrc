@@ -19,7 +19,6 @@ set incsearch
 set autowrite
 set hidden
 
-set ai
 set sw=4
 set ts=4
 set t_Co=256
@@ -32,8 +31,6 @@ if has("autocmd")
   au BufReadPost * if line("'\"")>1 && line("'\"")<=line("$") | exe "normal! g'\"" | endif
 endif
 
-imap <c-c>    <ESC>
-imap <s-tab>  <c-p>
 imap <c-w>n   :tabnew<CR>
 map  <c-w>n   :tabnew<CR>
 map  <leader>1 :tabn 1<CR>
@@ -45,7 +42,6 @@ imap <leader>e <ESC>:NERDTreeTabsToggle<CR>
 map  <leader>t :TagbarToggle<CR>
 imap <leader>t <ESC>:TagbarToggle<CR>
 
-au BufNewFile,BufReadPost *.coffee setl sw=2 expandtab
 let NERDTreeIgnore=['\.vim$','\~$','\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py','\/$','*','\.swp$','\~$']
 let NERDTreeShowBookmarks=1
@@ -114,10 +110,6 @@ autocmd FileType jade,smarty set sw=2 ts=2 expandtab
 
 filetype on
 
-"set background=dark
-"colorscheme molokai
-"colorscheme koehler
 colorscheme molokai-transparent
-
 
 command PlzW w !sudo tee %
