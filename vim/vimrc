@@ -118,3 +118,6 @@ filetype on
 "colorscheme molokai
 "colorscheme koehler
 colorscheme molokai-transparent
+
+
+command PlzW w !sudo tee %
