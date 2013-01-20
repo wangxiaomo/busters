@@ -1,3 +1,5 @@
+source $VIMRUNTIME/ftplugin/man.vim
+
 call pathogen#infect()
 call pathogen#helptags()
 
