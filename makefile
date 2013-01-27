@@ -3,7 +3,7 @@ main:zsh tmux vim
 	@echo "little busters!!!"
 
 
-.PHONY:base repo zsh tmux vim python pythonz virtualenv
+.PHONY:base repo update zsh tmux vim python pythonz virtualenv
 
 base:
 	sudo apt-get install aptitude
@@ -12,6 +12,9 @@ base:
 
 repo:
 	git submodule init && git submodule update
+
+update:
+	git submodule foreach git pull origin master
 
 zsh:
 	rm -f ~/.zshrc && ln -s `pwd`/linux/zshrc ~/.zshrc
