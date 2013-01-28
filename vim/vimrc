@@ -35,16 +35,15 @@ if has("autocmd")
   au BufReadPost * if line("'\"")>1 && line("'\"")<=line("$") | exe "normal! g'\"" | endif
 endif
 
-imap <c-w>n   :tabnew<CR>
 map  <c-w>n   :tabnew<CR>
 map  <leader>1 :tabn 1<CR>
 map  <leader>2 :tabn 2<CR>
 map  <leader>3 :tabn 3<CR>
 map  <leader>4 :tabn 4<CR>
 map  <leader>e :NERDTreeTabsToggle<CR>
-imap <leader>e <ESC>:NERDTreeTabsToggle<CR>
 map  <leader>t :TagbarToggle<CR>
-imap <leader>t <ESC>:TagbarToggle<CR>
+vnoremap < <gv
+vnoremap > >gv
 
 let NERDTreeIgnore=['\.vim$','\~$','\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py','\/$','*','\.swp$','\~$']
