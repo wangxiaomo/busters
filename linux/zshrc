@@ -41,6 +41,7 @@ alias ai='sudo aptitude install'
 alias ar='sudo aptitude remove'
 alias ap='sudo aptitude purge'
 alias todo='vi ~/todo.md'
+alias trash='vi ~/trash.md'
 
 export VISUAL='vim'
 export EDITOR='vim'
