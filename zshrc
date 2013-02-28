@@ -4,9 +4,11 @@ plugins=(osx git github svn django perl pip python)
 source $ZSH/oh-my-zsh.sh
 
 alias ls='ls -GF'
+alias todo='vi ~/todo.md'
 
-export VISUAL='vi'
-export EDITOR='vi'
+export VISUAL='vim'
+export EDITOR='vim'
+export PATH="/usr/local/mysql/bin:$PATH"
 
 bindkey -e
 
@@ -27,3 +29,9 @@ export LESS_TERMCAP_us=$'\E[01;33m'
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 git config --global alias.df "diff --color"
+git config --global alias.st "status -s"
+git config --global alias.mg "merge --no-ff"
+git config --global alias.co "checkout"
+git config --global alias.br "branch"
+git config --global alias.reflog "reflog show master"
+
