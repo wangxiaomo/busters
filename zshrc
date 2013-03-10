@@ -5,10 +5,11 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls='ls -GF'
 alias todo='vi ~/todo.md'
+alias tmux='TERM=screen-256color-bce tmux'
 
 export VISUAL='vim'
 export EDITOR='vim'
-export PATH="/usr/local/mysql/bin:$PATH"
+export PATH="/usr/local/mysql/bin:/usr/local/share/npm/bin/:$PATH"
 
 bindkey -e
 
