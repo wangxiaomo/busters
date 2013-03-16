@@ -1,9 +1,9 @@
-main:zsh tmux vim
+main:
 	@echo "wxm4ever@gmail.com https://github.com/wangxiaomo"
 	@echo "little busters!!!"
 
 
-.PHONY:base repo update zsh tmux vim python pythonz virtualenv
+.PHONY:base repo update zsh tmux vim python pythonz virtualenv mac
 
 base:
 	sudo apt-get install aptitude
@@ -43,3 +43,7 @@ virtualenv:
 	# debian only
 	sudo aptitude install python-virtualenv
 	sudo pip install virtualenvwrapper
+
+mac: vim
+	rm -f ~/.zshrc && ln -s `pwd`/zshrc ~/.zshrc
+	rm -f ~/.oh-my-zsh && ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
