@@ -13,7 +13,6 @@ export PATH="/usr/local/mysql/bin:/usr/local/share/npm/bin/:$PATH"
 
 bindkey -e
 
-#PROMPT='%~ %B%%%b '
 PROMPT='%~ $(git_prompt_info)%B%%%b '
 unsetopt correct_all
 
