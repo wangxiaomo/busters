@@ -9,7 +9,8 @@ alias tmux='TERM=screen-256color-bce tmux'
 
 export VISUAL='vim'
 export EDITOR='vim'
-export PATH="/usr/local/mysql/bin:/usr/local/share/npm/bin/:$PATH"
+export PATH="/usr/local/mysql/bin:/usr/local/share/npm/bin/:/Users/wangxiaomo/Downloads/adt-bundle-mac-x86_64-20130219/sdk/tools/:$PATH"
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home'
 
 bindkey -e
 
