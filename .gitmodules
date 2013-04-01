@@ -82,3 +82,6 @@
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim
+[submodule "vim/bundle/vim-git-log"]
+	path = vim/bundle/vim-git-log
+	url = https://github.com/vim-scripts/vim-git-log
