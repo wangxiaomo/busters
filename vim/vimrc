@@ -51,6 +51,7 @@ let NERDTreeShowBookmarks=1
 let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=2
+let g:neocomplcache_enable_underbar_completion=1
 let g:syntastic_check_on_open=1
 let g:syntastic_echo_current_error=1
 let g:syntastic_enable_highlighting=0
@@ -71,3 +72,4 @@ autocmd FileType vim set sw=2 ts=2 expandtab
 command PlzW w !sudo tee %
 
 filetype plugin on
+set completeopt-=preview
