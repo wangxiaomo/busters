@@ -73,3 +73,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
+[submodule "vim/bundle/GoldenView.vim"]
+	path = vim/bundle/GoldenView.vim
+	url = https://github.com/vim-scripts/GoldenView.Vim
