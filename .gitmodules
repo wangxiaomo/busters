@@ -76,3 +76,6 @@
 [submodule "vim/bundle/GoldenView.vim"]
 	path = vim/bundle/GoldenView.vim
 	url = https://github.com/vim-scripts/GoldenView.Vim
+[submodule "vim/bundle/vim-startify"]
+	path = vim/bundle/vim-startify
+	url = https://github.com/vim-scripts/vim-startify
