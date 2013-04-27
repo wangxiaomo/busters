@@ -65,6 +65,7 @@ let g:ctrlp_use_caching=1
 let g:ctrlp_working_path_mode=0
 let g:Powerline_symbols='fancy'
 let g:PreviewBrowsers='chrome,chromium-browser,firefox,safari'
+let g:goldenview__enable_at_startup=0
 
 autocmd FileType php,python,perl,markdown set sw=4 ts=4 expandtab
 autocmd FileType javascript,html,css set sw=2 ts=2 expandtab
