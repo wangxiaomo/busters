@@ -1,17 +1,22 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bira"
-plugins=(osx git github svn django perl pip python)
+plugins=(osx brew git github svn pip python django coffee battery perl cpanm node npm redis-cli tmux tmuxinator virtualenvwrapper vundle)
 source $ZSH/oh-my-zsh.sh
 
 alias ls='ls -GF'
-alias todo='vi ~/todo.md'
 alias tmux='TERM=screen-256color-bce tmux'
 
 export VISUAL='vim'
 export EDITOR='vim'
-export PATH="/usr/local/mysql/bin:/usr/local/share/npm/bin/:/Users/wangxiaomo/Downloads/adt-bundle-mac-x86_64-20130219/sdk/tools/:$PATH"
+export PATH="/usr/local/mysql/bin:/usr/local/share/npm/bin/:/Users/wangxiaomo/Downloads/adt-bundle-mac-x86_64-20130219/sdk/tools/:/usr/local/share/python:$PATH"
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home'
-export DYLD_LIBRARY_PATH='/usr/local/mysql/lib/'
+export DYLD_LIBRARY_PATH="/usr/local/mysql/lib/:$DYLD_LIBRARY_PATH"
+
+# virtualenv wrapper
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+export VIRTUALENVWRAPPER_PYTHON='/usr/bin/python'
+export WORKON_HOME='~/.envs/python-envs'
+[ -s /usr/local/share/python/virtualenvwrapper.sh ] && source /usr/local/share/python/virtualenvwrapper.sh >>/dev/null 2>&1
 
 bindkey -e
 
