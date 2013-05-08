@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bira"
-plugins=(osx brew git github svn pip python django coffee battery perl cpanm node npm redis-cli tmux tmuxinator virtualenvwrapper vundle)
+plugins=(osx brew git github svn pip python django coffee battery perl cpanm node npm redis-cli tmux tmuxinator vundle)
 source $ZSH/oh-my-zsh.sh
 
 alias ls='ls -GF'
